@@ -44,3 +44,12 @@
 .downloadsPage .OS.more {
     background-image: url(../img/os/more-01.png);
 }
+
+.downloadsPage .soon {
+    margin-bottom: 40px;
+    clear: both;
+}
+.downloadsPage .soon .OS {
+	color: #CCCCCC;
+	pointer-events: none;
+}

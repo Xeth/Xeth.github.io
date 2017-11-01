@@ -17,6 +17,7 @@
 
 .getPage .info h1,
 .getPage .info h2 {
+    font-size: 1.15rem;
     line-height: 30px;
     margin: 0;
     padding: 0;
