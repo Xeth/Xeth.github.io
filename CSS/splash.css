@@ -111,3 +111,49 @@
 .splashPage .highlights li.opensource {
     background-image: url(../img/opensource_s-01.png);
 }
+.splashPage .newverSection {
+    position: fixed;
+    z-index: -10;
+    width: 105px;
+    right: 20px;
+    bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(../img/newverBg_mid-01.png);
+    background-repeat: repeat-y;
+    background-position: center top;
+    padding: 15px 0 5px 0;
+}
+.splashPage .newverSection:before {
+    content: "";
+    display: block;
+    width: 105px;
+    height: 16px;
+    margin-top: -31px;
+    margin-bottom: 15px;
+    background-image: url(../img/newverBg_top-01.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.splashPage .newverSection h1,
+.splashPage .newverSection h2 {
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: #e6e6e6;
+    margin: 3px 0;
+}
+
+.splashPage .newverSection h2 {
+    color: #99a899;
+    font-size: 0.7rem;
+}
+.splashPage .newverSection .features {
+    list-style: none;
+    font-size: 1.2rem;
+    color: #75929f;
+    margin: 0;
+    padding: 15px 0;
+}
+.splashPage .newverSection .features li {
+    margin: -5px 0;
+}
